@@ -233,7 +233,7 @@ body {
 
 @media only screen and (max-width: 1000px) {
   .hero__inner {
-    background-image: url("./../img/hero/hero-bg-1000.png");
+    background-image: url("./img/hero/hero-bg-1000.png");
     background-position: center top; /* x y */
     background-size: cover;
     background-repeat: no-repeat;
@@ -242,7 +242,7 @@ body {
 }
 @media only screen and (max-width: 768px) {
   .hero__inner {
-    background-image: url("./../img/hero/hero-bg-768.png");
+    background-image: url("./img/hero/hero-bg-768.png");
     background-position: center top; /* x y */
     background-size: cover;
     background-repeat: no-repeat;
@@ -255,7 +255,7 @@ body {
 }
 @media only screen and (max-width: 480px) {
   .hero__inner {
-    background-image: url("./../img/hero/hero-bg-480.png");
+    background-image: url("./img/hero/hero-bg-480.png");
     background-position: center top; /* x y */
     background-size: cover;
     background-repeat: no-repeat;
