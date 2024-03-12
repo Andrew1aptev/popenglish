@@ -135,7 +135,7 @@ body {
 
 .logo {
   display: inline-block;
-  background: url("./../img/logo.png");
+  background: url("./img/logo.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -193,7 +193,7 @@ body {
   flex-direction: column;
   row-gap: 82px;
   background-color: #ffffff;
-  background-image: url("./../img/hero/hero-bg-1440.png");
+  background-image: url("./img/hero/hero-bg-1440.png");
   background-position: center top; /* x y */
   background-size: cover;
   background-repeat: no-repeat;
@@ -372,14 +372,14 @@ body {
 }
 
 .teacher__inner::after {
-  content: url("./../img/teacher/teacher__top.png");
+  content: url("./img/teacher/teacher__top.png");
   position: absolute;
   top: -85px;
   right: -13px;
 }
 
 .teacher__inner::before {
-  content: url("./../img/teacher/teacher__bottom.png");
+  content: url("./img/teacher/teacher__bottom.png");
   position: absolute;
   bottom: -80px;
   right: -15px;
@@ -512,7 +512,7 @@ body {
 }
 
 .feedback__top::after {
-  content: url("./../img/feedback/feedback__top.png");
+  content: url("./img/feedback/feedback__top.png");
   position: absolute;
   top: -3px;
   right: -17px;
@@ -526,7 +526,7 @@ body {
 
 .feedback__img {
   background-color: var(--blue);
-  background-image: url("./../img/feedback/phone.png");
+  background-image: url("./img/feedback/phone.png");
   background-position: center center;
   /* x y */
   background-size: cover;
@@ -545,7 +545,7 @@ body {
 }
 
 .feedback__bottom::after {
-  content: url("./../img/feedback/feedback__bottom.png");
+  content: url("./img/feedback/feedback__bottom.png");
   background-size: cover;
   background-repeat: no-repeat;
   position: absolute;
@@ -555,7 +555,7 @@ body {
 
 .feedback__bottom-img {
   background-color: var(--pink-second);
-  background-image: url("./../img/feedback/rupor.png");
+  background-image: url("./img/feedback/rupor.png");
   background-position: center center; /* x y */
   background-size: contain;
   background-repeat: no-repeat;
@@ -579,7 +579,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("./../img/form/bg-form.png");
+  background-image: url("./img/form/bg-form.png");
   background-position: center center; /* x y */
   background-size: cover;
   background-repeat: no-repeat;
@@ -709,13 +709,13 @@ body {
 }
 
 .footer__social-link--tg {
-  background-image: url("./../img/footer/telegram.png");
+  background-image: url("./img/footer/telegram.png");
 }
 
 .footer__social-link--yt {
-  background-image: url("./../img/footer/youtube.png");
+  background-image: url("./img/footer/youtube.png");
 }
 
 .footer__social-link--vk {
-  background-image: url("./../img/footer/vk.png");
+  background-image: url("./img/footer/vk.png");
 }

@@ -5,13 +5,13 @@
     padding-bottom: 100px;
 }
 .teacher__inner::after{
-    content: url('./../img/teacher/teacher__top.png');
+    content: url('./img/teacher/teacher__top.png');
     position: absolute;
     top: -85px;
     right: -13px;
 }
 .teacher__inner::before{
-    content: url('./../img/teacher/teacher__bottom.png');
+    content: url('./img/teacher/teacher__bottom.png');
     position: absolute;
     bottom: -80px;
     right: -15px;
