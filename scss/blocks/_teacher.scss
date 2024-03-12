@@ -1,0 +1,70 @@
+.teacher__inner {
+    background-color: var(--yellow);
+    padding-top: 500px;
+    position: relative;
+    padding-bottom: 100px;
+}
+.teacher__inner::after{
+    content: url('./../../img/teacher/teacher__top.png');
+    position: absolute;
+    top: -85px;
+    right: -13px;
+}
+.teacher__inner::before{
+    content: url('./../../img/teacher/teacher__bottom.png');
+    position: absolute;
+    bottom: -80px;
+    right: -15px;
+}
+.teacher__title{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+.teacher__grid {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 380px;
+    justify-content: center;
+    align-items: center;
+}
+.teacher__card-link{
+    color: var(--black);
+}
+.teacher__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+    max-width: 440px;
+    background-color: var(--white);
+    border: 2px solid #000;
+    box-shadow: 4px 4px 0 0 #000;
+    padding: 0px 20px 30px 20px;
+    width: 439px;
+    height: 600px;
+    position: relative;
+    padding-top: 200px;
+    transition: all .3s ease;
+}
+.teacher__card:hover{
+    box-shadow: 0px 0px 0 0 #000;
+}
+.teacher__card:active{
+    transform: scale(1.1);
+}
+
+.teacher__photo {
+    position: absolute;
+    bottom: 410px;
+}
+
+.teacher__name {
+    background-color: var(--pink);
+    padding: 0px 20px;
+}
+
+.teacher__list {
+    padding-left: 25px;
+}

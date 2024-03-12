@@ -1,0 +1,90 @@
+
+.hero__inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 82px;
+    background-color: #ffffff;
+    background-image: url('./../../img/hero/hero-bg-1440.png');
+    background-position: center top; /* x y */
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 785px;
+}
+.hero__text{
+    margin-top: 210px;
+    margin-left: 130px;
+    transform: rotate(-2deg);
+}
+.hero__title{
+    font-size: 48px;
+    text-align: center;
+}
+.hero__title span{
+    color: var(--pink);
+    text-shadow:
+    -2px -2px 0 black,
+    2px -2px 0 black,
+    -2px 2px 0 black,
+    2px 2px 0 black;
+}
+.hero__descr{
+    text-align: center;
+    font-size: 1.25rem;
+}
+.hero__btn{
+    margin-left: 130px;
+    transform: rotate(-2deg);
+    box-shadow: 4px 4px 0px 0px rgb(0, 0, 0);
+}
+.hero__btn:hover{
+    box-shadow: 0px 0px 0px 0px rgb(0, 0, 0);
+}
+@media only screen and (max-width: 1000px) {
+    .hero__inner{
+        background-image: url('./../../img/hero/hero-bg-1000.png');
+        background-position: center top; /* x y */
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 785px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .hero__inner{
+        background-image: url('./../../img/hero/hero-bg-768.png');
+        background-position: center top; /* x y */
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 785px;
+    }
+    .hero__text{
+        margin-top: 210px;
+        margin-left: 100px;
+    }
+}
+@media only screen and (max-width: 480px) {
+    .hero__inner{
+        background-image: url('./../../img/hero/hero-bg-480.png');
+        background-position: center top; /* x y */
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 785px;
+    }
+    .hero__title{
+        font-size: 1.5rem;
+    }
+    .hero__descr{
+        font-size: 1rem;
+    }
+    .hero__inner{
+        row-gap: 60px;
+    }
+    .hero__text{
+        margin-top: 135px;
+        margin-left: 130px;
+    }
+    .hero__btn{
+        margin-left: 180px;
+    }
+}

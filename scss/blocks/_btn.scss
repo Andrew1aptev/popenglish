@@ -1,0 +1,10 @@
+.btn{
+    background-color: var(--yellow);
+    padding: 16px 32px;
+    text-transform: uppercase;
+    border: 2px solid var(--black);
+    transition: all .3s ease;
+}
+.btn:active{
+    transform: scale(1.1);
+}
