@@ -10,7 +10,7 @@
 }
 
 .feedback__top::after {
-    content: url('./../../img/feedback/feedback__top.png');
+    content: url('./../img/feedback/feedback__top.png');
     position: absolute;
     top: -3px;
     right: -17px;
@@ -24,7 +24,7 @@
 
 .feedback__img {
     background-color: var(--blue);
-    background-image: url('./../../img/feedback/phone.png');
+    background-image: url('./../img/feedback/phone.png');
     background-position: center center;
     /* x y */
     background-size: cover;
@@ -42,7 +42,7 @@
     position: relative;
 }
 .feedback__bottom::after{
-    content: url('./../../img/feedback/feedback__bottom.png');
+    content: url('./../img/feedback/feedback__bottom.png');
     background-size: cover;
     background-repeat: no-repeat;
     position: absolute;
@@ -51,7 +51,7 @@
 }
 .feedback__bottom-img{
     background-color: var(--pink-second);
-    background-image: url('./../../img/feedback/rupor.png');
+    background-image: url('./../img/feedback/rupor.png');
     background-position: center center; /* x y */
     background-size: contain;
     background-repeat: no-repeat;
