@@ -193,7 +193,7 @@ body {
   flex-direction: column;
   row-gap: 82px;
   background-color: #ffffff;
-  background-image: url("./../../img/hero/hero-bg-1440.png");
+  background-image: url("./../img/hero/hero-bg-1440.png");
   background-position: center top; /* x y */
   background-size: cover;
   background-repeat: no-repeat;
